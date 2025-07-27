@@ -1,0 +1,237 @@
+site_name: Programming for Data Science
+site_url: https://science.dataidea.org/
+site_author: Juma Shafara
+site_description: DATAIDEA SCIENCE
+
+nav:
+  - Home: index.md
+  - Python:
+      - Overview: Python/11_python_tutorial.md
+      - End of Course Exercise: Python/13_end_of_course_exercise.md
+      - Basics:
+          - Outline: Python/Basics/00_python_programming_outline.md
+          - Introduction: Python/Basics/01_basics.md
+          - Variables: Python/Basics/02_variables.md
+          - Numbers: Python/Basics/03_numbers.md
+          - Strings: Python/Basics/03_strings.md
+          - Operators: Python/Basics/04_operators.md
+          - Containers: Python/Basics/05_containers.md
+          - Flow Control: Python/Basics/06_flow_control.md
+          - Advanced: Python/Basics/07_advanced.md
+          - Modules: Python/Basics/08_modules.md
+          - File Handling: Python/Basics/09_file_handling.md
+          - End of Course Exercise: Python/Basics/13_end_of_course_exercise.md
+      - Built-in:
+          - Filter Function: Python/Python Builtin/filter_function.md
+          - Map Function: Python/Python Builtin/map_function.md
+          - Reduce Function: Python/Python Builtin/reduce_function.md
+      - Libraries:
+          - NumPy Crash Course: Python/Libraries/12_numpy.md
+          - Pandas Crash Course: Python/Libraries/13_pandas.md
+          - Matplotlib Crash Course: Data Collection and Visulization/31_matplotlib_refined.md           
+  - Data Collection and Visualization:
+      - NumPy Crash Course: Python/Libraries/12_numpy.md
+      - Pandas Crash Course: Python/Libraries/13_pandas.md
+      - Weather Data: Data Collection and Visulization/21_weather_data.md
+      - Matplotlib: Data Collection and Visulization/31_matplotlib_refined.md
+      - Data Exploration Exercise: Data Collection and Visulization/32_data_exploration_and_cleaning_exercise.md
+      - Handling Missing Data: Data Collection and Visulization/76_handling_missing_data.md
+  - Machine Learning:
+      - Overview: Machine Learning/41_overview_of_machine_learning.md
+      - Training Models: Machine Learning/42_training_models_meaning.md
+      - Unsupervised Learning: 
+          - Introduction: Machine Learning/43_sklearn-unsupervised-learning.md
+          - Advanced: Machine Learning/43_sklearn-unsupervised-learning2.md
+      - Feature Engineering:
+          - Feature Selection: Machine Learning/71_feature_selection.md
+          - Why Scaling: Machine Learning/72_why_scaling.md
+          - Feature Scaling (FPL): Machine Learning/72_why_scaling_fpl.md
+          - Normalization and Standardization: Machine Learning/73_normalization_and_standardization.md
+      - Handling Missing Data: Machine Learning/76_handling_missing_data.md
+      - Model Evaluation:
+          - Classification Metrics: Machine Learning/80_classification_metrics.md
+          - Regression Metrics: Machine Learning/81_regression_metrics.md
+      - Advanced Techniques:
+          - Pipelines: Machine Learning/82_sklearn_pipeline.md
+          - Hyperparameter Tuning: Machine Learning/83_GridSearchCV.md
+  - Deep Learning:
+      - Introduction: Deep Learning/outline.md
+      - Tensors & Datasets:
+          - 1D Tensors: Deep Learning/Week1-Tensors-Datasets/1.1_1Dtensors_v2.md
+          - 2D Tensors: Deep Learning/Week1-Tensors-Datasets/1.1_2 Two-Dimensional Tensors_v2.md
+          - Derivatives & Graphs: Deep Learning/Week1-Tensors-Datasets/1.2derivativesandGraphsinPytorch_v2.md
+          - Simple Datasets: Deep Learning/Week1-Tensors-Datasets/1.3.1_simple_data_set_v2.md
+          - Pre-Built Datasets: Deep Learning/Week1-Tensors-Datasets/1.3.3_pre-Built Datasets_and_transforms_v2.md
+          - Exercise: Deep Learning/Week1-Tensors-Datasets/tensors_and_datasets_exercise.md
+      - Linear Regression:
+          - 1D Regression: Deep Learning/Week2-Linear-Regression/2.1Prediction1Dregression_v3.md
+          - One Parameter: Deep Learning/Week2-Linear-Regression/2.2_linear_regression_one_parameter_v3.md
+          - Slope & Bias: Deep Learning/Week2-Linear-Regression/2.3_training_slope_and_bias_v3.md
+          - Exercise: Deep Learning/Week2-Linear-Regression/linear_regression_exercise.md
+      - LR in PyTorch:
+          - SGD: Deep Learning/Week3-LR-PyTorch/3.1_stochastic_gradient_descent_v3.md
+          - Mini-Batch GD: Deep Learning/Week3-LR-PyTorch/3.2_mini-batch_gradient_descent_v3.md
+          - PyTorch Way: Deep Learning/Week3-LR-PyTorch/3.3_PyTorchway_v3.md
+          - Training & Validation: Deep Learning/Week3-LR-PyTorch/3.6_training_and_validation_v3.md
+          - Exercise: Deep Learning/Week3-LR-PyTorch/linear_regression_in_pytorch_exercise.md
+      - Multiple Input LR:
+          - Multiple LR Prediction: Deep Learning/Week4-Multiple-Input-LR/4.1.multiple_linear_regression_prediction_v2.md
+          - Multiple LR Training: Deep Learning/Week4-Multiple-Input-LR/4.2.multiple_linear_regression_training_v2.md
+          - Multi-Target LR: Deep Learning/Week4-Multiple-Input-LR/4.3.multi-target_linear_regression.md
+          - Training Multiple Output: Deep Learning/Week4-Multiple-Input-LR/4.4.training_multiple_output_linear_regression.md
+          - Exercise: Deep Learning/Week4-Multiple-Input-LR/muliple_input_lr_exercise.md
+      - Logistic Regression:
+          - Prediction: Deep Learning/Week5-Logistic-Regression/5.1logistic_regression_prediction_v2.ipynb
+          - MSE Issues: Deep Learning/Week5-Logistic-Regression/5.2.2bad_inshilization_logistic_regression_with_mean_square_error_v2.ipynb
+          - Cross Entropy: Deep Learning/Week5-Logistic-Regression/5.3_cross_entropy_logistic_regression_v2.ipynb
+          - Softmax: Deep Learning/Week5-Logistic-Regression/5.4softmax_in_one_dimension_v2.ipynb
+          - Exercise: Deep Learning/Week5-Logistic-Regression/logistic_regression_exercise.ipynb
+      - Practice:
+          - Custom Datasets: Deep Learning/Week6-Practice/6.1_custom_datasets.ipynb
+          - DataLoaders: Deep Learning/Week6-Practice/6.2_dataloaders.ipynb
+          - Transforms: Deep Learning/Week6-Practice/6.3_transforms.ipynb
+      - Shallow Networks:
+          - Simple Hidden Layer: Deep Learning/Week7-Shallow-Networks/7.1_simple1hiddenlayer.ipynb
+          - Multiple Neurons: Deep Learning/Week7-Shallow-Networks/7.2multiple_neurons.ipynb
+          - XOR Problem: Deep Learning/Week7-Shallow-Networks/7.3xor_v2.ipynb
+          - MNIST: Deep Learning/Week7-Shallow-Networks/7.4one_layer_neural_network_MNIST.ipynb
+          - Activation Functions: Deep Learning/Week7-Shallow-Networks/7.5.1activationfuction_v2.ipynb
+          - MNIST One Layer: Deep Learning/Week7-Shallow-Networks/7.5.2mist1layer_v2.ipynb
+      - Deep Networks:
+          - MNIST Two Layer: Deep Learning/Week8-Deep-Networks/8.1.1mist2layer_v2.ipynb
+          - Multiclass Spiral: Deep Learning/Week8-Deep-Networks/8.1.2mulitclassspiralrulu_v2.ipynb
+          - Dropout Prediction: Deep Learning/Week8-Deep-Networks/8.2.1dropoutPredictin_v2.ipynb
+          - Dropout Regression: Deep Learning/Week8-Deep-Networks/8.2.2dropoutRegression_v2.ipynb
+          - Initialization: Deep Learning/Week8-Deep-Networks/8.3.1.initializationsame.ipynb
+          - Xavier Init: Deep Learning/Week8-Deep-Networks/8.3.2Xaviermist1layer_v2.ipynb
+          - He Init: Deep Learning/Week8-Deep-Networks/8.3.3.He_Initialization_v2.ipynb
+          - Momentum: Deep Learning/Week8-Deep-Networks/8.4.1_MomentumwithPolynomialFunctions_v2.ipynb
+          - NN with Momentum: Deep Learning/Week8-Deep-Networks/8.4.2_NeuralNetworkswithMomentum_v2.ipynb
+          - Batch Normalization: Deep Learning/Week8-Deep-Networks/8.5.1BachNorm_v2.ipynb
+      - CNNs:
+          - Convolution Basics: Deep Learning/Week9-CNNs/9.1What_is_Convolution.ipynb
+          - Activation & Pooling: Deep Learning/Week9-CNNs/9.2Activation_max_pooling.ipynb
+          - Multiple Channels: Deep Learning/Week9-CNNs/9.3Multiple_Channel_Convolution.ipynb
+          - Simple CNN: Deep Learning/Week9-CNNs/9.4.1ConvolutionalNeralNetworkSimple example.ipynb
+          - CNN Small Image: Deep Learning/Week9-CNNs/9.4.2CNN_Small_Image.ipynb
+          - CNN Batch Processing: Deep Learning/Week9-CNNs/9.4.3CNN_Small_Image_batch.ipynb
+  - Time Series:
+      - Introduction: Time Series/90_introduction.md
+      - Analysis: Time Series/91_analysis.md
+      - Forecasting: Time Series/92_forecasting.md
+      - Python Example: Time Series/93_python_example.md
+  - Maths & Statistics:
+      - Overview: Maths & Statistics/50_maths_and_stats_for_ds.md
+      - Eigen Values and Vectors: Maths & Statistics/1_eigen_values_vectors.md
+      - Descriptive Statistics: Maths & Statistics/51_descriptive_statistics.md
+      - Inferential Statistics: Maths & Statistics/52_inferencial_statistics.md
+      - Statistical Models: Maths & Statistics/53_implementing_statistical_models.md
+      - Hypothesis Testing: Maths & Statistics/hypothesis_testing.md
+  - Extras:
+      - Customer Analysis: Extras/customer_analysis.md
+      - How KNN Works: Extras/how_KNN_works.md
+      - Handling Imbalanced Data: Extras/handling_imbalanced_data.md
+      - Classification Metrics: Extras/classification_metrics.md
+  - About:
+      - License: LICENSE
+      - ReadMe: README.md
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+        alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+theme:
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  name: material
+  # customization
+  custom_dir: overrides
+
+  # features
+  features:
+    # header
+    - header.autohide
+
+    # navigation
+    - navigation.footer
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand
+    # - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+
+    # announcements
+    - announce.dismiss
+    
+    # content
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+
+  # fonts
+  font:
+    text: DM Sans
+    code: DM Mono
+
+  # palette
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+
+# extra
+extra_css:
+  - styles/custom.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  generator: false
+  homepage: https://www.dataidea.org/
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dataidea
+      name: DATAIDEA on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/dataidea
+      name: DATAIDEA YouTube Channel
+    - icon: fontawesome/solid/envelope
+      link: mailto:dataideaorg@gmail.com
+      name: Contact us by email
+
+plugins:
+  - search
+  - mkdocs-jupyter
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+      
