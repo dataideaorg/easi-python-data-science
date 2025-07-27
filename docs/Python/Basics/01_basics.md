@@ -26,7 +26,7 @@ This course will teach you the basics and advanced concepts of Python Programmin
 <li><i class="bi bi-cursor"></i> Exercise</li> 
 </ul>
 
-You can watch the full crash course on our YouTube channel [Programming for Data Science](https://www.youtube.com/watch?v=aWbtHS0kMb8) 
+You can watch the full crash course on our YouTube channel [Python for Data Science](https://www.youtube.com/watch?v=aWbtHS0kMb8) 
 
 
 ### Prerequisites

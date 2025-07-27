@@ -8,11 +8,31 @@ hide:
 .hero {
   padding: 4rem 0;
   text-align: center;
-  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--light) 100%);
+  background-image: url("assets/statistics-hero.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
   border-radius: 8px;
   margin-bottom: 3rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
 }
 
 .hero h1 {
@@ -257,7 +277,7 @@ hide:
 </style>
 
 <div class="hero">
-  <h1>Programming for Data Science</h1>
+  <h1>Python for Data Science</h1>
   <p>A comprehensive and dynamic course designed to equip you with the skills to thrive in the world of data science</p>
   <div class="hero-buttons">
     <a href="#courses" class="hero-button primary-button">Explore Courses</a>
@@ -370,7 +390,7 @@ hide:
   <div class="social-links">
     <a href="https://twitter.com/jumashafara" class="social-link" target="_blank"><span class="material-icons">language</span></a>
     <a href="https://github.com/jumashafara" class="social-link" target="_blank"><span class="material-icons">code</span></a>
-    <a href="mailto:example@email.com" class="social-link"><span class="material-icons">email</span></a>
+    <a href="mailto:jumashafara0@gmail.com" class="social-link"><span class="material-icons">email</span></a>
   </div>
 </div>
 

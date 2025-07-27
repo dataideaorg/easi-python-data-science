@@ -1,6 +1,6 @@
 ---
 title: Python Modules
-description: Learn Programming for Data Science
+description: Learn Python for Data Science
 keywords: [python modules, math module, json module, date time module, random module, what is a python module, why use modules]
 author: Juma Shafara
 date: "2023-11"

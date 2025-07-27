@@ -1,7 +1,7 @@
-site_name: Programming for Data Science
-site_url: https://science.dataidea.org/
+site_name: Python for Data Science
+site_url: https://easi.ac.ug/python-for-data-science
 site_author: Juma Shafara
-site_description: DATAIDEA SCIENCE
+site_description: Data Science Learning Resources
 
 nav:
   - Home: index.md
@@ -158,8 +158,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
-  favicon: assets/logo.png
-  logo: assets/logo.png
   name: material
   # customization
   custom_dir: overrides
@@ -215,16 +213,16 @@ extra_javascript:
 
 extra:
   generator: false
-  homepage: https://www.dataidea.org/
+  homepage: https://www.easi.ac.ug/
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/dataidea
-      name: DATAIDEA on Twitter
+      link: https://twitter.com/easiacug
+      name: EASI on Twitter
     - icon: fontawesome/brands/youtube
-      link: https://youtube.com/dataidea
-      name: DATAIDEA YouTube Channel
+      link: https://youtube.com/easiacug
+      name: EASI YouTube Channel
     - icon: fontawesome/solid/envelope
-      link: mailto:dataideaorg@gmail.com
+      link: mailto:info@easi.ac.ug
       name: Contact us by email
 
 plugins:

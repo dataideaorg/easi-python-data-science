@@ -1,2 +1,2 @@
 # dataidea-science
-New Programming for Data Science Site
+New Python for Data Science Site

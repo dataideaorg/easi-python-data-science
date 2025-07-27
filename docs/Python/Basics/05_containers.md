@@ -1,6 +1,6 @@
 ---
 title: Python Containers
-description: Learn Programming for Data Science
+description: Learn Python for Data Science
 keywords: [python containers, python collections, list, set, object, tuple, dictionary, indexing, negative indexing, range of indexes, adding items, deleting items, Juma Shafara, What is an object?]
 author: Juma Shafara
 date: "2023-11"

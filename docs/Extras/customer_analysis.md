@@ -10,7 +10,7 @@ date: "2024-07-08"
 In this project, I want to look at customer data pulled from github and create some visuals in my jupyter notebook to observe any trends related to customers.
 
 <!-- Newsletter -->
-<div style="background-color: #008374; border:1px solid #008374; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
+<div style="background-color: #dd8604; border:1px solid #dd8604; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
 <div style="background-color: #f3f4f7; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px">
 
 <p style="color:rgb(36, 36, 36)">

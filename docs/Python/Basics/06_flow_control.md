@@ -1,6 +1,6 @@
 ---
 title: Python Flow Control
-description: Learn Programming for Data Science
+description: Learn Python for Data Science
 keywords: [function, conditional statements, if, if else, if elif, lambda functions, loops, for loop, while loop]
 author: Juma Shafara
 date: "2023-11"

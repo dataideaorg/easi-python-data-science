@@ -212,7 +212,7 @@ class_counts = titanic_df.pclass.value_counts()
 classes = class_counts.index
 counts = class_counts.values
 
-plt.bar(x=classes, height=counts, color='#008374')
+plt.bar(x=classes, height=counts, color='#dd8604')
 plt.title('Number of Passengers Per Passenger Class')
 plt.xlabel('Passenger Class')
 plt.ylabel('Number of Passengers')
@@ -234,7 +234,7 @@ It's easy to see from the graph that the 3rd class had the largest number of pas
 ```python
 # 2. Histogram - Age distribution of passengers
 ages = titanic_df.age
-plt.hist(x=ages, bins=20, color='#008374', 
+plt.hist(x=ages, bins=20, color='#dd8604', 
          edgecolor='#66FDEE')
 plt.title('Age Distribution of Passengers')
 plt.ylabel('Frequency')
@@ -331,7 +331,7 @@ plt.scatter(
     y=titanic_df['fare'], 
     alpha=.5, 
     c=titanic_df['survived'], 
-    cmap=ListedColormap(['#008374', '#000000'])
+    cmap=ListedColormap(['#dd8604', '#000000'])
 )
 plt.xlabel('Age')
 plt.ylabel('Fare')
@@ -358,7 +358,7 @@ I don't about you but for me I don't see a linear relationship between the age a
 gender_counts = titanic_df['sex'].value_counts()
 plt.pie(x=gender_counts, labels=gender_counts.index, 
         autopct='%1.1f%%', startangle=90, 
-        colors=['#008374', '#66FDEE'])
+        colors=['#dd8604', '#66FDEE'])
 plt.title('Proportion of Male vs. Female Passengers')
 plt.legend(loc='lower right')
 plt.show()
@@ -378,7 +378,7 @@ plt.show()
 # 6. Stacked Bar Plot - Survival status within each passenger class
 survival_counts = titanic_df.groupby(['pclass', 'survived']).size().unstack()
 survival_counts.plot(kind='bar', stacked=True,  
-                     color=['#008374', '#66FDEE'])
+                     color=['#dd8604', '#66FDEE'])
 plt.xlabel('Passenger Class')
 plt.ylabel('Number of Passengers')
 plt.title('Survival Status Within Each Passenger Class')
@@ -466,7 +466,7 @@ We observe that:
 # 7. Line Plot - Mean age of passengers by passenger class
 mean_age_by_class = titanic_df.groupby('pclass')['age'].mean()
 plt.plot(mean_age_by_class.index, mean_age_by_class.values, 
-         marker='*', color='#008374')
+         marker='*', color='#dd8604')
 plt.xlabel('Passenger Class')
 plt.ylabel('Mean Age')
 plt.title('Mean Age of Passengers by Passenger Class')

@@ -3,7 +3,7 @@ title: Pytorch Deep Learning Outline
 author: Juma Shafara
 date: "2023-11"
 keywords: [data science, data analysis, programming, dataidea]
-description: Programming for Data Science is a subject we’ve designed to explore the various programming components of data science.
+description: Python for Data Science is a subject we’ve designed to explore the various programming components of data science.
 ---
 
 ![Photo by DATAIDEA](../../assets/banner4.png)

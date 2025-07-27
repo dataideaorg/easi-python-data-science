@@ -4,7 +4,7 @@ author: Juma Shafara
 date: "2024-02"
 date-modified: "2024-07-25"
 keywords: [machine learning, machine learning classification, machine learning classification metrics, decision trees, python, precision, recall, f1 score, weighted, accuracy, linear regression]
-description: Learn Programming for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset  
+description: Learn Python for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset  
 ---
 
 ![Photo by DATAIDEA](../../assets/banner4.png)
