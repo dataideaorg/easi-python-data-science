@@ -380,7 +380,7 @@ hide:
 </div>
 
 <div class="author-section" id="about">
-  <img src="./assets/logo.png" alt="Juma Shafara" class="author-image">
+  <img src="./assets/jumashafara_passport_photo.jpg" alt="Juma Shafara" class="author-image">
   <h2>About the Author</h2>
   <div class="author-bio">
     <p>Hi, My name is Juma Shafara. I am a Data Scientist at Raising The Village and Instructor at DATAIDEA. I have taught hundreds of people Programming, Data Analysis, and Machine Learning.</p>
